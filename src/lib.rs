@@ -57,7 +57,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn search_case_sensitive() {
+    fn case_sensitive() {
         let query = "duct";
         let contents = "\
 Rust:
